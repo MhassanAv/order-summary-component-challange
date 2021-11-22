@@ -1,3 +1,3 @@
 -##Hi
--this is my soluition of *order-summary-component-main* challange
+-this is my soluition for*order-summary-component-main* challange
 -i used plain html & css to achive this soluition
