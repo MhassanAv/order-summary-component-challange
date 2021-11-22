@@ -1,3 +1,3 @@
--##Hi
--this is my soluition for *order-summary-component-main* challange
--i used plain html & css to achive this soluition
+- ## Hi
+- this is my soluition for **order-summary-component-main** challange by **frontendmentor.io**
+- i used plain html & css in this challenge as my main tools
