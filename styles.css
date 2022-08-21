@@ -19,11 +19,10 @@ body{
     padding:0;
     margin:0;
     background-image: url(images/pattern-background-desktop.svg);
-    background-size: cover;
-    background-position: center;
     background-repeat:no-repeat;
+    background-size: contain;
     height:100vh;
-    width: 1440px;
+    width: auto;
 }
 .hero{
     position: absolute;
@@ -97,7 +96,7 @@ body{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-.btn1:hover,.btn1:focus{
+.btn1:hover{
     color: var(--Desaturatedblue);
 }
 .payment{
@@ -129,11 +128,11 @@ body{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-.btn3:hover,.btn3:focus{
+.btn3:hover{
     color: var(--Darkblue);
 }
-.btn2:hover,.btn2:focus{
-    size:120%;
+.btn2:hover{
+    transform: scale(103%);
     background-color: var(--Desaturatedblue);
 }
 .attribution{
@@ -143,9 +142,15 @@ body{
     transform: translate(-50%, 0);
     
 }
-@media only screen and (max-width:375px){
+@media (max-width:500px){
     body{
         background-image: url(images/pattern-background-mobile.svg);
     }
+
+    .hero{
+        height: 700px;
+        width: 390px;
+    }
+
 }
     
